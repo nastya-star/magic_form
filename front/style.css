@@ -116,3 +116,7 @@ tr:hover td {
   color: #0040ff;
   opacity: 0.4;
 }
+
+tr > td:first-child {
+  text-align: center;
+}
