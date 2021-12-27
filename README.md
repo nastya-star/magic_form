@@ -10,21 +10,19 @@ There is a form that receives username and email from user and adds is to an exi
 
 **1.** Create a new folder
 
-**2.** Clone this repository
+**2.** Clone this repository and install dependencies
 ```
 git clone https://github.com/nastya-star/magic_form.git
-```
-**3.** Install dependencies
-```
+cd magic_form
 npm install
 ```
-**4.** Run the application
+**3.** Run the application
 ```
 npm start
 ```
-**5.** Open your browser and go to *http://localhost:3000*
+**4.** Open your browser and go to *http://localhost:3000*
 
-**6.** Enjoy yourself 😊😊😊
+**5.** Enjoy yourself 😊😊😊
 
 ### Functions
 
