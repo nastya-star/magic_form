@@ -1,8 +1,8 @@
 # Magic form
 
-This is application based on node.js "express" library.
+It is an application based on node.js "express" library.
 ######
-There is a form that receives username and email from user and adds is to an existing table, adding an id and a time of request.
+There is a form that receives a username and an email from the user. Also, it adds it to an existing table, adding an id and a time of the request.
 
 ## Documentation
 
@@ -30,11 +30,11 @@ npm start
 
 **checkEmail(email) -> boolean** (receives an email and checks whether exists the same one. Returns true or false)
 
-**writeUser(username, email, date) -> object** (receives a username, email and date. Pushes data to an array and returns an object with pushed element. If the same email already exists returns undefined)
+**writeUser(username, email, date) -> object** (receives a username, email and date. Pushes data to an array and returns an object with a pushed element. If the same email already exists, returns undefined)
 
-**createField(username, email, date) -> string** (receives a username, email and date. Calls writeUser function and returns null if there is an error. In valid case returns an HTML code of field)
+**createField(username, email, date) -> string** (receives a username, email and date. Calls writeUser function and returns null if there is an error. In a valid case, returns an HTML code of field)
 
-**postData(url, data) -> Promise** (receives a url and data to post. Returns Promise with response from the server)
+**postData(url, data) -> Promise** (receives a URL and data to post. Returns Promise with response from the server)
 
 #### Backend
 
