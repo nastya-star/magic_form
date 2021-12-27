@@ -39,3 +39,5 @@ npm start
 **validateEmail(email) -> boolean** (receives an email and checks whether it is valid. Returns true or false)
 
 **validateUsername(username) -> boolean** (receives a username and checks whether it is valid. Returns true or false)
+
+**getDate() -> string** (returns current time in format "01.01.2000 23:59:59")
