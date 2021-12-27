@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <fieldset style="border: 3px solid #ffd300">
+    <legend>New Member</legend>
+    <div class="text-field">
+      <label class="text-field__label" for="username">Full name</label>
+      <input class="text-field__input" type="text" name="username" placeholder="Username">
+    </div>
+    <div class="text-field">
+      <label class="text-field__label" for="email">Email</label>
+      <input class="text-field__input" type="email" name="email" placeholder="Email">
+    </div>
+    <p>
+      <button type="submit" id="add" class="button-1">Add reader to table</button>
+      <button type="submit" id="clear" class="button-1">Clear</button>
+    </p>
+  </fieldset>
+
+  <p>
+    <table class="table">
+      <tr>
+        <th>№</th>
+        <th>Full Name</th>
+        <th>E-mail</th>
+        <th>Registration date</th>
+      </tr>
+    </table>
+  </p>
+
+</body>
+
+<script src="./index.js"></script>
+
+</html>
